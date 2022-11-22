@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "assistant-regular";
+  src: url(./assets/fonts/Assistant-Regular.ttf);
+}
+@font-face {
+  font-family: "assistant-semibold";
+  src: url(./assets/fonts/Assistant-SemiBold.ttf);
+}
+
+.main_container {
+  background-image: url(./assets/img/signinbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+  text-transform: capitalize;
+}
+
+.form_container {
+  width: 400px;
+  background-color: #212121;
+  border-radius: 5px;
+  box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.6);
+  padding: 50px;
+}
+
+.links_container {
+  display: flex;
+}
+.links_container > a:nth-child(3) {
+  margin-left: auto;
+}
+.links_container > a:nth-child(2) {
+  margin-left: 15px;
+}
+.links_container > a {
+  color: white;
+  font-family: "assistant-regular";
+  font-size: 15px;
+}
+
+.title_form {
+  font-family: "assistant-semibold";
+  color: white;
+  margin-top: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label_form {
+  color: white;
+  font-family: "assistant-regular";
+}
+
+.input_form {
+  background-color: #212121;
+  border: 1px solid #3b3c45;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.singin_form {
+  background-color: #ff5245;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.form > label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.links_container > a.active {
+  color: yellow;
+}
+
+.invisible {
+  display: none;
+}
+
+.singup_form {
+  background-color: #ff5245;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.label_up {
+  font-family: "assistant-regular";
+  color: white;
+}
+
+.input_up {
+  background-color: #212121;
+  border: 1px solid #3b3c45;
+  border-radius: 5px;
+  padding: 10px;
+}
