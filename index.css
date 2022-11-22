@@ -65,6 +65,7 @@
   border: 1px solid #3b3c45;
   border-radius: 5px;
   padding: 10px;
+  color: white;
 }
 
 .singin_form {
@@ -108,4 +109,5 @@
   border: 1px solid #3b3c45;
   border-radius: 5px;
   padding: 10px;
+  color: white;
 }
