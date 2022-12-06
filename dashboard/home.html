@@ -12,19 +12,21 @@
     <link rel="stylesheet" href="./home.css" />
   </head>
   <body class="father">
-    <nav class="aside_menu">
+      <nav class="aside_menu">
       <ul class="main_aside">
-        <li>
+        <li class="logo_button">
           <img src="../assets/img/Logogrit.png" class="logo_aside" alt="" />
         </li>
         <li class="aside_home">
           <button class="button_home">
-            <i class="material-icons icon">home</i> Home
+            <i class="material-icons icon">home</i>
+            <span class="button_text">Home</span>
           </button>
         </li>
         <li class="aside_bills">
           <button class="button_bills">
-            <i class="material-icons">attach_money</i>Bills
+            <i class="material-icons">attach_money</i>
+            <span class="button_text">Bills </span>
           </button>
         </li>
       </ul>
@@ -34,6 +36,7 @@
         <i class="material-icons now">g_translate</i>
       </div>
     </nav>
+    
     <section>
       <div class="box_container">
         <div class="one_container">
@@ -51,17 +54,24 @@
       </div>
       <div class="usual_expenses">
         <p class="title_usual">usual expenses</p>
-        <div class="value_container">
-          <div class="red"></div>
-          <p class="sub_usual">food 45%</p>
-        </div>
-        <div class="value_container">
-          <div class="blue"></div>
-          <p class="sub_usual">courses 35%</p>
-        </div>
-        <div class="value_container">
-          <div class="yellow"></div>
-          <p class="sub_usual">amazon 25%</p>
+        <div class="chart_container">
+          <div class="values">
+            <div class="value_container">
+              <div class="red"></div>
+              <p class="sub_usual">food 45%</p>
+            </div>
+            <div class="value_container">
+              <div class="blue"></div>
+              <p class="sub_usual">courses 35%</p>
+            </div>
+            <div class="value_container">
+              <div class="yellow"></div>
+              <p class="sub_usual">amazon 25%</p>
+            </div>
+          </div>
+          <div class="chart">
+            <canvas id="canvas"></canvas>
+          </div>
         </div>
       </div>
     </section>
@@ -82,5 +92,13 @@
         <p class="sub_change">COP-Peso</p>
       </div>
     </aside>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.min.js"
+      integrity="sha512-tQYZBKe34uzoeOjY9jr3MX7R/mo7n25vnqbnrkskGr4D6YOoPYSpyafUAzQVjV6xAozAqUFIEFsCO4z8mnVBXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./home.js"></script>
   </body>
 </html>

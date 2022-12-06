@@ -290,3 +290,44 @@ body {
   margin-top: 10px;
   height: 30px;
 }
+
+.chart_container {
+  display: flex;
+}
+
+.chart {
+  width: 200px;
+}
+@media screen and (max-width: 576px) {
+  .father {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button_text {
+    display: none;
+  }
+  .box_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main_aside {
+    display: flex;
+    flex-flow: nowrap;
+  }
+
+  .button_home {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  .button_bills {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: transparent;
+  }
+}
