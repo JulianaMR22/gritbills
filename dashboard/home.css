@@ -364,14 +364,29 @@ body {
   }
 
   .last_expenses{
-    width: 300px;
+    width: 350px;
     padding-right: 0;
-    margin-left: 30px;
+    margin-left: 5px;
+  }
+
+  .title_expenses{
+    margin-top: 25px;
+  }
+
+  .spotify_box{
+    margin-left: 70px;
+   margin-top: 25px;
+  }
+
+  .amazon_box{
+     margin-left: 70px;
+     margin-top: 55px;
+
   }
 
   .change{
-    width: 333%;
-    margin-left: 30px;
+    width: 360%;
+    margin-left: 17px;
     margin-bottom: 20px;
 
   }
