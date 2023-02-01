@@ -136,14 +136,13 @@ body {
   background-color: #ff5245;
   border: none;
   padding: 5px;
-  padding-right:15px ;
+  padding-right: 15px;
   text-transform: capitalize;
   border-radius: 5px;
   height: 30px;
   font-family: "asistant-semibold";
   font-size: 15px;
   color: white;
-  
 }
 
 .table_name {
@@ -372,4 +371,56 @@ body {
   height: 41px;
   padding-left: 15px;
   width: 24%;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    display: flex;
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    align-items: center;
+  }
+
+  .aside_bills {
+    width: 30%;
+  }
+
+  .home {
+    width: 130%;
+  }
+
+  .bills {
+    width: 130%;
+  }
+
+  .main_container {
+    margin-left: 5px;
+  }
+
+  .search {
+    width: 158px;
+    height: 30px;
+    margin-left: -90px;
+    padding-left: 33px;
+  }
+
+  .button {
+    width: 158px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .table {
+    margin-left: -92px;
+    width: 129%;
+    margin-top: 40px;
+  }
+
+  .icon_search {
+    margin-left: -86px;
+  }
+
+  .logo {
+    padding-left: 75px;
+  }
 }
